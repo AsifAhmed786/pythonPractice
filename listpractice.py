@@ -47,4 +47,9 @@ print(cities)
 cities.pop()
 
 
+print(cities)
+
+print(cities[-5:-1])
+
+
 

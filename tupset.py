@@ -1,4 +1,4 @@
-a = "asif","ahmed"
+a = "asif","ahmed","imran","salman"
 print(type(a))
 print("asdfas"+"dfdd")
 print(len(a))
@@ -6,11 +6,14 @@ print(a[0])
 # del a[0]
 
 
-a = {"asif","Ahmed"}
-print(type(a))
-a.add("hello")
+b = {"asif","Ahmed"}
+print(type(b))
+b.add("hello")
+print(b)
+b.remove("hello")
+print(b)
+b.update(["new1","new2"])
+
 print(a)
-a.remove("hello")
-print(a)
-a.update(["new1","new2"])
-print(a)
+print(a[0:2])
+
