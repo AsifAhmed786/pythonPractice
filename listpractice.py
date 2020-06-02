@@ -52,4 +52,8 @@ print(cities)
 print(cities[-5:-1])
 
 
+abc = [2,4,5,6]
+abc = abc + [10]
+print(abc)
+
 
