@@ -16,3 +16,8 @@ abc = func3(4,5,6,7,8)
 for a in abc:
     print(a)
 print(abc[0])
+
+abc1 = True
+while(abc1):
+    print("hello")
+    abc1 = False
