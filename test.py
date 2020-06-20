@@ -33,6 +33,6 @@ while abc:
     print("hello")
     exit()
 
-import mod as testModule
+import mod as module1
 
-print(testModule.hello())
+print(module1.add(2,4))

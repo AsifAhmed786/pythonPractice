@@ -1,20 +1,20 @@
-with open("new1.txt","r") as file:
-    file_content = file.read()
-    print(file_content)
+with open("test21.txt","r") as file1:
+    print(file1.read())
+
+with open("test21.txt","w") as file1:
+    file1.write("no thats not true\n")
+    file1.write("no thats not true\n")
+    file1.write("no thats not true\n")
 
 
-with open("new1.txt","w") as file:
-    file.write("what is your name dear\n")
-    file.write("what is your name dear1\n")
-    file.write("what is your name dear2\n")
+with open("test21.txt","a") as file1:
+    file1.write("hello1")
+    file1.write("hello2")
+    file1.write("hello3")
 
-
-with open("new1.txt","a") as file:
-    file.write("What is you name append")
-    file.write("What is you name append1")
-    file.write("What is you name append2")
-
-with open("new2.txt","w+") as file:
-    file.write("hellomynewworld")
-    file.seek(0);
-    print(file.read());
+with open("test214.txt","w+") as file1:
+    file1.write("hello world\n")
+    file1.write("hello world2\n")
+    file1.write("hello world3\n")
+    file1.seek(0)
+    print(file1.read())

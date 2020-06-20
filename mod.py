@@ -1,5 +1,5 @@
-def hello():
-    return "hello";
+def add(a,b):
+    return a+b
 
-def new():
-    return "new function"
+def minus(a,b):
+    return a-b
