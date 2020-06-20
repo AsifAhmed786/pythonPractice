@@ -32,3 +32,7 @@ abc = True
 while abc:
     print("hello")
     exit()
+
+import mod as testModule
+
+print(testModule.hello())
