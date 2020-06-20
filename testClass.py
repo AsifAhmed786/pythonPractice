@@ -1,19 +1,16 @@
 class Student:
-    def __init__(self,fname,lname,age):
+    def __init__(self,name,fname,rollnumber,age):
+        self.name = name
         self.fname = fname
-        self.lname = lname
+        self.rollnumber = rollnumber
         self.age = age
+    
+    def getStudentProfile(self):
+        print(f"Student name is {self.name}")
+        print(f"Student Father name is {self.fname}")
+        print(f"Student Father name is {self.rollnumber}")
+        print(f"Student age is {self.age}")
 
-    def getName(self):
-        return self.fname
 
-    def setName(self,newName):
-        self.fname = newName
-
-    def getProfile(self):
-        print(f"First Name: {self.fname}")
-        print(f"Last Name: {self.lname}")
-        print("Age: {}".format(self.age))
-
-stud1 = Student("Asif","Ahmed","40")
-stud1.getProfile()
+# st1 = Student("Asif","Ahmed",1127,40)
+# st1.getStudentProfile()
