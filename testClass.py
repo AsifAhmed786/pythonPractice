@@ -1,16 +1,17 @@
-class Student:
-    def __init__(self,name,fname,rollnumber,age):
-        self.name = name
-        self.fname = fname
-        self.rollnumber = rollnumber
-        self.age = age
-    
-    def getStudentProfile(self):
-        print(f"Student name is {self.name}")
-        print(f"Student Father name is {self.fname}")
-        print(f"Student Father name is {self.rollnumber}")
-        print(f"Student age is {self.age}")
+class Car:
+    def __init__(self,make,model,price):
+        self.make = make
+        self.model = model
+        self.price = price
 
+    def getMake(self):
+        return self.make
 
-# st1 = Student("Asif","Ahmed",1127,40)
-# st1.getStudentProfile()
+    def getModel(self):
+        return self.model
+
+    def getPrice(self):
+        return self.price
+
+    def setPrice(self,price1):
+        self.price = price1
