@@ -1,25 +1,22 @@
-print("hello","hello2",sep="-")
-print("hello3")
+import mod123 as mod1
+
+mod1.function1()
+
+car1 = mod1.Car("Suzuki","Yaris",2000000)
+car1.getCarDetails()
 
 
-# name = input("what is your name")
-# print(name)
+def getPizzaDetail(flavor, price, *toppings):
+    print(flavor, price, toppings)
 
 
-'''''Multiline comments'''''
-#single line comment
+getPizzaDetail("Tikka",1000,"onions","olives","ketchup")
 
-# global:
-abc = 0
 
-while(abc<12):
-    abc = abc+1
-    print(abc)
-    
-str1 = "hello","hello2"
-print(len(str1))
+print(5//2)
 
-for a in str1:
-    print(a)
-
-print(type(str1))
+a = 5;
+b = 10
+c = a+b
+str1 = "hello"+ str(c)
+print(str1)
