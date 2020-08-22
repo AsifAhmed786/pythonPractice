@@ -72,13 +72,21 @@
 #         print(c)
 
 
-list1 = ["Book1","Book2","Book3","Book4"]
+# list1 = ["Book1","Book2","Book3","Book4"]
 
-try:
-    print(list1[1])
-except Exception as err:
-    print(f"error generated {err}")
-else:
-    print("this is else")
-finally:
-    print("this is finally")
+# try:
+#     print(list1[1])
+# except Exception as err:
+#     print(f"error generated {err}")
+# else:
+#     print("this is else")
+# finally:
+#     print("this is finally")
+
+
+import pandas as pd1
+
+import pandas as pd
+
+dict1 = {"Name":["Asif","Imran","Hanif Turk"],"Father Name":["Ahmed","Jamal","Turk"],"Education":["ICMA","Intermediate","MA Economics"]}
+print(pd.DataFrame(dict1))
